@@ -1,7 +1,7 @@
 <h1>Fundamentos do React</h1>
 
-Introdução ao Módulo
-  Como funciona o React
+## `Introdução ao Módulo`
+-  **Como funciona o React**
   Para que serve o React
   JSX
   Componentes
