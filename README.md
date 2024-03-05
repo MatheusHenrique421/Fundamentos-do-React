@@ -1,20 +1,16 @@
-<h1>Fundamentos do React</h1>
+<h1>Conhecendo o Vite</h1>
 
-## `Introdução ao Módulo`
--  **Como funciona o React**
--  **Para que serve o React**
--  **JSX**
--  **Componentes**
--  **Props**
--  **Eventos**
--  **Estado**
--  **Formulários**
--  **Renderização condicional e de listas**
--  **HTML e CSS**
--  **Conhecimentos sólidos em JavaScript (todos os 5 módulos de JS concluídos)**
--  **Em especial, domínio de funções, objetos e arrays**
--  **Versão usada: React 18+**
--  **Nova estrutura em (possivelmente) 3 partes**
--  **Parte inicial: foco nos fundamentos**
+- Um servidor de desenvolvimento que trabalha com ESM para fornecer Hot Module Replacement (HMR)
+
+- Um empacotador (Rollup) que já vem pré-configurado para gerar assets otimizados para produção
+
+- Mais rápido
+
+- Mais simples
+
+- Criar um novo projeto com Vite é extremamente simples, basta executar:
+
+``npm create vite@latest``
+
 
   Plataforma do curso: https://cursos.onebitcode.com/area/produto/item/1260345
