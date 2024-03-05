@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fundamentos do React</title>
+  </head>
+  <style>
+    #app {
+      background-color: cadetblue;
+      display: grid;
+      font-family: sans-serif;
+      height: 100vh;
+      place-content: center;
+    }
+  </style>
+  <body>
+    <!-- Dentro da div principal deve existir um elemento com o id -->
+    <div id="app"></div>
+
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script>
+    
+        //Esta forma de utilizar o React e o ReactDOM não é mais recomendada.
+      const { createElement } = React;
+
+      const appDiv = document.getElementById("app"); // Pega a div que
+      const root = ReactDOM.createRoot(appDiv);
+
+      const h1 = createElement("h1", {}, "Olá Mundo!");
+      const p = createElement("p", {}, "Estamos utilizando o React!");
+      const main = createElement("main", {}, h1, p);
+
+      root.render(main);
+
+    </script>
+  </body>
+</html>
