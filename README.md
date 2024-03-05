@@ -1,14 +1,12 @@
 <h1>Fundamentos do React</h1>
 
-## `Introdução ao Módulo`
-
-**JSX é uma extensão da linguagem JavaScript.**
+## **JSX é uma extensão da linguagem JavaScript.**
 
 - É o formato usado pelo React para representar os elementos do DOM.
 
 - Facilita o processo de escrita do conteúdo que deve ser renderizado na tela.
 
-**Conhecendo os Componentes do React**
+## **Conhecendo os Componentes do React**
 
 - Componentes são os pequenos blocos que compõem uma interface
 
