@@ -1,18 +1,18 @@
-# Dados Dinâmicos no JSX
+# Criando Novos Componentes 
+ 
+* No arquivo “App.jsx” nós vamos criar uma outra função chamada **Title. Um componente React nada mais é do que uma função do JavaScript que retorna JSX, então podemos recriar nosso título h1 como um componente individual:**
 
-* A partir dessa aula vamos começar a usar o React pra valer.
-* Vamos criar um projeto com o Vite onde aplicaremos vários conceitos diferentes.
-    * Para evitar recriar um novo projeto a cada aula, vamos aproveitar esse projeto nas aulas subsequentes. 
+* **Obs**: os componentes do React, apesar de serem funções, são nomeados usando CamelCase, ou seja, letras maiúsculas no começo e em cada palavra. **É muito importante seguir esse padrão de nomenclatura**.
 
-* Mas não se preocupe, o conteúdo de cada aula ficará devidamente separado para manter tudo organizado.
-
-<h4>Nessa aula você vai aprender como usar dados dinâmicos dentro do JSX, inserindo expressões JavaScript diretamente dentro da marcação da página</h4>
-
-* O JSX permite inserir qualquer expressão JavaScript dentro da marcação, em qualquer lugar. Para fazer isso basta usar um par de chaves “{ }”. Por exemplo, podemos exibir de forma dinâmica o valor de uma variável:
+* Para usar esse componente que criamos no nosso App.jsx só precisamos incluir uma nova tag com o seu nome, como uma tag html comum, mas com a diferença de que os nossos componentes começarão sempre com letras maiúsculas:
     
-**Obs.: repare que se trocarmos o valor da variável e salvar o componente a página passa a mostrar o novo valor.**
+* Obs.: repare que precisamos incluir a / de fechamento mesmo sendo uma tag única, isso é uma regra do JSX por ele ser baseado em XML (linguagem de marcação parecida com o HTML)
 
-* No entanto, existe uma regra muito importante aqui. Só podemos usar expressões dentro do JSX, ou seja, código que pode ser avaliado para resultar em um valor como os valores que atribuímos a uma variável por exemplo.
+* Para evitar recriar um novo projeto a cada aula, vamos aproveitar esse projeto nas aulas subsequentes. 
 
-* Sendo assim, coisas como blocos if else, while, for, etc, não podem ser usados dentro do JSX. Podemos, por exemplo, substituir o if else por um operador ternário
+* uma outra prática comum do React é separar cada componente em seu próprio arquivo com o mesmo nome do componente, deixando nosso código mais organizado. Vamos fazer isso.
+* Crie um arquivo chamado “Title.jsx” e mova para ele o código do componente Title:
+    
+* Obs.: lembre que precisamos exportá-lo para poder usá-lo no componente App.jsx.
 
+Explicação da Aula [Clique aqui](https://onebitcode.notion.site/Criando-Novos-Componentes-06503664e06b4b3487c4c358342627a0 "Title").
