@@ -1,11 +1,7 @@
-# Conhecendo o Fragment
+# Reutilizando Componentes 
 
-* <h4>Os componentes do React possuem uma regra muito importante: o JSX retornado deve sempre possuir um único componente pai, ou seja, temos que sempre retornar um componente ou tag “em volta” de todos os outros, não podemos retornar dois elementos separados.</h4>
+* Os componentes do React existem justamente para serem reutilizados, para isso só precisamos colocá-lo múltiplas vezes no JSX. 
 
-* Por isso sempre colocamos um elemento qualquer como pai de todos os outros.
+* Apenas fazendo isso nós já conseguimos reutilizar nosso componente em qualquer lugar. Poderíamos inclusive reutilizá-lo em outros componentes.
 
-* Mas isso pode acabar gerando um problema, o acumulo de tags ``<div>`` (ou qualquer outra) desnecessárias em nosso HTML. 
-
-* Para resolver isso o React possui o Fragment. Ele é um componente que, ao ser renderizado, desaparece do HTM. 
-
-* Basta utilizar a tag vazia  ``<> </>``
+* Mas temos um problema aqui, eles ainda são exatamente iguais. Isso ajuda quando temos componentes simples que se repetem, mas em um cenário real precisaríamos ser capazes de mudar o conteúdo de cada instância do componente.

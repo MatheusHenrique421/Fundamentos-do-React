@@ -6,6 +6,8 @@ function App() {
     <>
       <h1>Exercicio-02</h1>
       <Card />
+      <Card />
+      <Card />
     </>
   )
 }
