@@ -1,23 +1,5 @@
-<h1>Fundamentos do React</h1>
+# Exercício-02 Criando componente Card
 
-## **JSX é uma extensão da linguagem JavaScript.**
+- [Descrição do Exercício](https://onebitcode.notion.site/Exerc-cio-2-Criando-um-Componente-Card-1-09996df4c1c841409b99ff6e363122f8) 
 
-- É o formato usado pelo React para representar os elementos do DOM.
-
-- Facilita o processo de escrita do conteúdo que deve ser renderizado na tela.
-
-## **Conhecendo os Componentes do React**
-
-- Componentes são os pequenos blocos que compõem uma interface
-
-- Diferente do HTML tradicional, onde escrevemos a página inteira em um arquivo, componentes definem pequenos blocos reutilizáveis e extensíveis
-
-- Vantagens
-
-- Podem ser escritos uma vez e reutilizados várias vezes facilmente
-
-- Tornam o processo de modificar uma parte específica da interface muito mais fácil (ex.: mudar o componente de botão atualiza todos os botões da interface)
-
-- Deixa a estrutura de um projeto mais organizada, com cada arquivo responsável por uma pequena parte ao invés de toda uma página
-
-  Plataforma do curso: https://cursos.onebitcode.com/area/produto/item/1260345
+- [Resolução do Exercício](https://onebitcode.notion.site/Resolu-o-do-Exerc-cio-2-bde8c036f7444dbda49675b08ead03a9) 
