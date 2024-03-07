@@ -2,10 +2,11 @@ import Card from "./components/Card";
 
 function App() {
   return (
-    <div className="App">
+    //Para usarmos o Fragment não precisamos nem mesmo importá-lo, basta usar uma tag vazia <>
+    <>
       <h1>Exercicio-02</h1>
       <Card />
-    </div>
+    </>
   )
 }
 

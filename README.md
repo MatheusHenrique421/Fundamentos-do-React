@@ -1,5 +1,11 @@
-# Exercício-02 Criando componente Card
+# Conhecendo o Fragment
 
-- [Descrição do Exercício](https://onebitcode.notion.site/Exerc-cio-2-Criando-um-Componente-Card-1-09996df4c1c841409b99ff6e363122f8) 
+* <h4>Os componentes do React possuem uma regra muito importante: o JSX retornado deve sempre possuir um único componente pai, ou seja, temos que sempre retornar um componente ou tag “em volta” de todos os outros, não podemos retornar dois elementos separados.</h4>
 
-- [Resolução do Exercício](https://onebitcode.notion.site/Resolu-o-do-Exerc-cio-2-bde8c036f7444dbda49675b08ead03a9) 
+* Por isso sempre colocamos um elemento qualquer como pai de todos os outros.
+
+* Mas isso pode acabar gerando um problema, o acumulo de tags ``<div>`` (ou qualquer outra) desnecessárias em nosso HTML. 
+
+* Para resolver isso o React possui o Fragment. Ele é um componente que, ao ser renderizado, desaparece do HTM. 
+
+* Basta utilizar a tag vazia  ``<> </>``
