@@ -1,10 +1,9 @@
-import Card from "./components/Card";
+import "./styles/global.css";
 import Profile from "./components/Profile";
 function App() {
   
   return (
-    <div className="App">
-      <Card />
+    <div className="app">      
       <Profile
       avatar="https://randomuser.me/api/portraits/men/75.jpg"
       name="John Doe"
