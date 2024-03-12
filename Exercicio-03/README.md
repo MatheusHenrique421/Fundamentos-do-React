@@ -1,11 +1,11 @@
-# Exercício 3 - Criando um componente Profile
+# Props com Rest Param
 
-Em um novo projeto React com Vite crie um componente chamado “Profile” que seja capaz de aceitar as props avatar, name, bio, email, phone, githubUrl, linkedinUrl e twitterUrl. O componente Profile deverá então renderizar um cartão de perfil de acordo com a imagem abaixo.
+- Existe uma forma de definirmos qualquer prop em um componente pai que criamos e passá-la diretamente para o componente que é retornado dentre dele, ou seja, passar uma prop no ProfileSection e ela ser passada diretamente para a div que ele retorna. Comece adicionando algumas propriedades extras diretamente no componente ProfileSection:
+    
+- Obs.: repare que **no React os atributos data- e aria- devem ser utilizados com hífen**, este é um caso especial e eles são os únicos onde podemos fazer isso.
 
-Obs.: os estilos não precisam ficar exatamente iguais, esses apenas são os estilos usados na resolução, mas é um desafio extra de CSS caso você queira tentar alcançar a maior precisão possível.
+- Ao inspecionar o código no navegador você vai ver que nada aconteceu com a div que envolve os links, ela tem apenas a classe wrapper. Para corrigirmos isso e passar automaticamente qualquer prop de ProfileSection para a div nós usamos o rest param:
+    
+- Obs.: repare que especificamente no caso do className usamos um formato diferente, pois se aplicarmos apenas o props.className o elemento ficará sem os estilos da classe wrapper.
 
-![This is an image](/Exercicio-03/src/assets/Exemplo.png)
-
-- [Link](https://onebitcode.notion.site/Exerc-cio-3-Criando-um-componente-Profile-1-1be6ce601c1343f4ae8c94e8a9dc8e09)
-
-- [Resolução](https://onebitcode.notion.site/Resolu-o-do-Exerc-cio-3-c3b790dc962346088edb058190b2ba52)
+[Link Explicação ](https://onebitcode.notion.site/Composi-o-de-componentes-com-children-21945fab7a9f471282d91f05c76f03e6)
