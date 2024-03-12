@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(95, 176, 243);
+}
+
+.app{
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+}

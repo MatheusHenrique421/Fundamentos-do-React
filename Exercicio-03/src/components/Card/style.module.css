@@ -1,0 +1,11 @@
+.container {
+  background-color: white;
+  text-align: center;
+  margin: 0 auto;
+  /* padding: 1%; */
+  width: 30rem;
+  margin-top: 1%;
+  border-radius: 1rem;
+  display: grid;
+  place-content: center;
+}
