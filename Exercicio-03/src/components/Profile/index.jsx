@@ -17,12 +17,15 @@ export default function Profile(props) {
       <ProfileSection>{props.phone}</ProfileSection>
       <ProfileSection>{props.email}</ProfileSection>
             
-      <ProfileSection>
-      <div className={styles.links}>
+      <ProfileSection
+        className={styles.links}
+        id="links-section"
+        data-test="Algum valor Aleatorio"
+        aria-label="social links"
+      >      
         <LinkButton href={props.githubUrl} target="_blank">GitHub</LinkButton>
         <LinkButton href={props.linkedinUrl} target="_blank">LinkedIn</LinkButton>
-        <LinkButton href={props.twitterUrl} target="_blank">Twitter</LinkButton>
-      </div>
+        <LinkButton href={props.twitterUrl} target="_blank">Twitter</LinkButton>      
       </ProfileSection>
       
     </div>
